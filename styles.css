@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+}
+img{
+    width: 60%;
+}
+#leftPanel{
+    background-color: orange;
+    border: 5px solid black;
+}
+#rightPanel{
+    background-color: teal;
+    border: 5px solid black;
+    border-left: 0px;
+}
+.outerContainer{
+    height: 100vh;
+}
+#userMove{
+    border: 5px solid black;
+    border-radius: 50%;
+}
+#cpuMove{
+    border: 5px solid black;
+    border-radius: 50%;
+}  
+.score{
+    font-size: 3.5em;
+    font-weight: 700;
+}
