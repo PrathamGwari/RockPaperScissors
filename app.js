@@ -86,7 +86,7 @@ function checkWin(userch, cpuCh) {
         else if (cpuScore == bestOf) {
             userPanel.style.backgroundColor = 'rgb(' + 248 + ',' + 88 + ',' + 88 + ')';
             cpuPanel.style.backgroundColor = 'rgb(' + 30 + ',' + 201 + ',' + 30 + ')';
-            alert("Congrats! LOOSER 🎉🎉🎉🎉🎉🎉🎉🎉🎉", "warning");
+            alert("You Lost. Better Luck next time. 😔😔😔😔", "warning");
             var audio = new Audio('SoundEffects/fail.mp3');
             audio.play();
         }
